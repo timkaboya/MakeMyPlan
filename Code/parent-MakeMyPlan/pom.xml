@@ -1,0 +1,172 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.vis</groupId>
+	<artifactId>parent-MakeMyPlan</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.6.RELEASE</version>
+	</parent>
+
+
+	<properties>
+		<common.version>0.0.1-SNAPSHOT</common.version>
+		<jacoco.maven.plugin.version>0.8.2</jacoco.maven.plugin.version>
+	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>dxl-gr-releases</id>
+			<name>Releases</name>
+			<url>http://internal-nexus-svc/repository/dxl-gr-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>dxl-gr-snapshots</id>
+			<name>Snapshot</name>
+			<url>http://internal-nexus-svc/repository/dxl-gr-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<modules>
+		<module>../MakeMyPlan</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<!-- Setup Spring Boot -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<!-- Setup Spring MVC & REST, use Embedded Tomcat -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<!-- Testing starter -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+
+		<!-- Validation JSR-303 support for @Valid -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+		</dependency>
+
+
+
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.1</version>
+					<dependencies>
+						<dependency>
+							<groupId>org.apache.maven.surefire</groupId>
+							<artifactId>surefire-junit47</artifactId>
+							<version>2.20.1</version>
+						</dependency>
+					</dependencies>
+					<configuration>
+						<useSystemClassLoader>false</useSystemClassLoader>
+						<skipTests>false</skipTests>
+						<includes>
+							<include>**/*.class</include>
+						</includes>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>default-deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+
+			<plugin>
+
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.6.8</version>
+				<executions>
+					<execution>
+						<id>default-deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<serverId>nexus</serverId>
+					<nexusUrl>https://nexus-ui.tools.aws.cps.vodafone.com/repository/vsse-snapshots/</nexusUrl>
+					<skipStaging>true</skipStaging>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+
+	<profiles>
+		<profile>
+			<id>dxl-gr-snapshots</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<repositories>
+				<repository>
+					<id>dxl-gr-snapshots</id>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+					<url>http://internal-nexus-svc/repository/dxl-gr-snapshots/</url>
+				</repository>
+			</repositories>
+		</profile>
+	</profiles>
+
+</project>

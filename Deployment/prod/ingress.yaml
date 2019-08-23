@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/auth-tls-pass-certificate-to-upstream: "false"
+    nginx.ingress.kubernetes.io/auth-tls-secret: dxl-stagingref-es/pkiv01-es-stagingref-rootca-cert
+    nginx.ingress.kubernetes.io/auth-tls-verify-client: "on"
+    nginx.ingress.kubernetes.io/auth-tls-verify-depth: "3"
+  labels:
+    app: makemyplan
+    env: dxl-prod-gr
+  name: makemyplan
+  namespace: dxl-prod-gr
+spec:
+  tls:
+  - hosts:
+    - makemyplan-gr-prod.myvdf-internal.aws.cps.vodafone.com
+    secretName: myvdf-certificate
+  rules:
+  - host: makemyplan-gr-prod.myvdf-internal.aws.cps.vodafone.com
+    http:
+      paths:
+      - backend:
+          serviceName: makemyplan
+          servicePort: 8080
+        path: /

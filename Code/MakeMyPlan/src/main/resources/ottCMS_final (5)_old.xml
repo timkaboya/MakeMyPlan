@@ -1,0 +1,1966 @@
+<cms>
+	<order xmlns:mcare="http://www.w3.org/1999/xml">
+		<Internal_Title/>
+        <Type/>
+        <AIOS_code/>
+        <Appweb_text>
+        Η αίτηση έχει δημιουργηθεί και είτε αναμένουμε το υπογεγραμμένο αντίτυπο με τα δικαιολογητικά, είτε (εφόσον τα δικαιολογητικά έχουν επισυναφθεί)  αναμένουμε να γίνουν οι απαραίτητοι έλεγχοι στα δικαιολογητικά ώστε να δρομολογηθεί η αίτηση για υλοποίηση.	
+        </Appweb_text>
+        <Appweb_text_en>
+        The application has been created and we either await the signed copy of the supporting documents or (if the supporting documents are attached) we expect the necessary documentary checks to be made to launch the application for implementation.
+        </Appweb_text_en>
+        <Step>1</Step>
+        <Percentage>10</Percentage>
+		<Speed/>
+        <Colour>#00b0ca</Colour>
+		<Order_status>Awaiting Approval</Order_status>
+		<CPE/>
+		<STB/>
+	</order>
+	<order xmlns:mcare="http://www.w3.org/1999/xml">
+		<Internal_Title/>
+        <Type/>
+        <AIOS_code/>
+        <Appweb_text>
+       Η αίτησή σου ακυρώθηκε αυτόματα λόγω μη παραλαβής δικαιολογητικών.
+        </Appweb_text>
+        <Appweb_text_en> 
+	   Your application was automatically canceled due to non-receipt of supporting documents
+        </Appweb_text_en>
+        <Step>2</Step>
+        <Percentage>10</Percentage>
+		<Speed/>
+        <Colour>#2D5757</Colour>
+		<Order_status>Auto-Cancelled</Order_status>
+		<CPE/>
+		<STB/>
+	</order>
+    <order xmlns:mcare="http://www.w3.org/1999/xml">
+        <Internal_Title>K01</Internal_Title>
+        <Type>K_status</Type>
+        <AIOS_code>K01</AIOS_code>
+        <Appweb_text>
+        Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+        </Appweb_text>
+        <Appweb_text_en>
+        Your application and the documents for your order have been successfully received. We are running the necessary checks, before we submit it for implementation.
+        </Appweb_text_en>
+        <Step>2</Step>
+        <Percentage>10</Percentage>
+		<Speed/>
+        <Colour>#00b0ca</Colour>
+		<Order_status/>
+		<CPE/>
+		<STB/>
+    </order>
+    <order xmlns:mcare="http://www.w3.org/1999/xml">
+        <Internal_Title>K3.9.6</Internal_Title>
+        <Type>K_status</Type>
+        <AIOS_code>K3.9.6</AIOS_code>
+        <Appweb_text>
+        Η επίσκεψη του τεχνικού της Vodafone για μεικτονόμιση της γραμμής εκκρεμεί καθώς έχεις δηλώσει επιθυμία ακύρωσης. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά!
+        </Appweb_text>
+        <Appweb_text_en>
+        Our technician's visit to install your phone line is still pending, as you have submitted a cancellation request. We will contact you on your mobile to inform you further.
+        </Appweb_text_en>
+        <Step>2</Step>
+        <Percentage>10</Percentage>
+		<Speed/>
+		<Colour>#00b0ca</Colour>
+		<Order_status/>
+		<CPE/>
+		<STB/>
+    </order>
+    <order xmlns:mcare="http://www.w3.org/1999/xml">
+        <Internal_Title>K02</Internal_Title>
+        <Type>K_status</Type>
+        <AIOS_code>K02</AIOS_code>
+        <Appweb_text>
+        Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+        </Appweb_text>
+        <Appweb_text_en>
+        Your application and the documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+        </Appweb_text_en>
+        <Step>2</Step>
+        <Percentage>20</Percentage>
+		<Speed/>
+		<Colour>#00b0ca</Colour>
+		<Order_status/>
+		<CPE/>
+		<STB/>
+    </order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K03</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K03</AIOS_code>
+    <Appweb_text>
+    Σε αναμονή των απαραίτητων δικαιολογητικών για να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application is pending, as we are awaiting all the necessary documents in order to run the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K04</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K04</AIOS_code>
+    <Appweb_text>
+    Η αίτηση σου είναι σε αναμονή καθώς κατά τη διάρκεια των απαραίτητων ελέγχων διαπιστώθηκε ένα θέμα για το οποίο θα σε ενημερώσουμε τηλεφωνικά στο κινητό επικοινωνίας που μας έχεις δηλώσει.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your order is on hold because we have identified a problem. It will remain on hold until it is resolved by our activation department. We will contact you on the mobile number you have provided us to inform you on any development.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#eb9700</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K05</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K05</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and documents for your order were successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>20</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K05V</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K05V</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>20</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K05.1</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K05.1</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K05.1V</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K05.1V</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K05.3</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K05.3</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K05.4</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K05.4</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K05.5</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K05.5</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K06</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K06</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K07</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K07</AIOS_code>
+    <Appweb_text>
+    H αίτησή σου είναι σε εξέλιξη. Θα ενημερωθείς τις επόμενες ημέρες με γραπτό μήνυμα στο κινητό επικοινωνίας που έχεις δηλώσει, για τη δωρεάν παράδοση του VDSL εξοπλισμού στο χώρο σου από εταιρία courier.
+    </Appweb_text>
+    <Appweb_text_en>
+    We are processing your order. Within the next days, you will be notified by sms for the free delivery of the VDSL router to your premises via courier.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K08</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K08</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and the documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K09</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K09</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and the documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>20</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K09V</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K09V</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and the documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>20</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K1</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K1</AIOS_code>
+    <Appweb_text>
+    Ξεκίνησε η διαδικασία ενεργοποίησης της γραμμής σου και εντός των επόμενων ημερών θα ενημερωθείς με την προβλεπόμενη ημερομηνία ενεργοποίησης.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your order has been submitted for implementation. Within the next days, you will be informed of th estimated activation date.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>30</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K1V</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K1V</AIOS_code>
+    <Appweb_text>
+    Ξεκίνησε η διαδικασία ενεργοποίησης της γραμμής σου και εντός των επόμενων ημερών θα ενημερωθείς με την προβλεπόμενη ημερομηνία ενεργοποίησης.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your order has been submitted for implementation. Within the next days, you will be informed of the estimated activation date.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>30</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K1.1</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K1.1</AIOS_code>
+    <Appweb_text>
+    Κατά τη διαδικασία ενεργοποίησης της σύνδεσης σου, διαπιστώθηκε τεχνικό θέμα το οποίο επηρεάζει την ολοκλήρωση της. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δώσει να σε ενημερώσουμε.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your order is on hold , because we have identified a problem. It will remain on hold until it is resolved by our activation department. We will call you on the mobile to inform you.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>30</Percentage>
+    <Speed/>
+    <Colour>#eb9700</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K1.5</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K1.5</AIOS_code>
+    <Appweb_text>
+    Έχουμε παραλάβει τα απαραίτητα δικαιολογητικά και γίνονται οι απαραίτητοι έλεγχοι ώστε να ξεκινήσει η διαδικασία ενεργοποίησης της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your application and the documents for your order have been successfully received. We are running the necessary checks before we submit it for implementation.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K10</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K10</AIOS_code>
+    <Appweb_text/>
+    <Appweb_text_en/>
+    <Step>2</Step>
+    <Percentage>70</Percentage>
+    <Speed/>
+    <Colour>#eb9700</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K11</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K11</AIOS_code>
+    <Appweb_text>Το αίτημα ακύρωσης της αίτησης σου ολοκληρώθηκε.</Appweb_text>
+    <Appweb_text_en>
+    Your order cancellation request has been successfully processed.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage/>
+    <Speed/>
+    <Colour>#e60000</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+    <order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K2</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K2</AIOS_code>
+    <Appweb_text>
+    Η προβλεπόμενη ημερομηνία ενεργοποίησης της σύνδεσης σου εμφανίζεται στο πεδίο που βρίσκεται στο πιο πάνω. Σε περίπτωση που έχεις κάνει αίτηση σε Vodafone home triple-play θα λάβεις σχετικό μήνυμα στο κινητό σου αναφορικά με την παράδοση του εξοπλισμού. Μπορείς να παρακολουθείς εδώ την εξέλιξη παράδοσης του εξοπλισμού σου. Αν έχεις κάνει αίτηση για νέα γραμμή τη συγκεκριμένη ημερομηνία εξασφάλισε πρόσβαση στο κτίριο σου για ενδεχόμενη επίσκεψη τεχνικού και διασφάλισε ότι αναγράφεται το όνομα σου στο κουδούνι. Η ενεργοποίηση της υπηρεσίας αναμένεται να ολοκληρωθεί εντός 3 ημερών από την παραπάνω ημερομηνία.
+    </Appweb_text>
+    <Appweb_text_en>
+    The estimated activation date of your connection appears just above. If you have applied for the Vodafone home triple-play pack, you will be informed via sms on the delivery of the necessary equipment. You can track the status of the delivery here. If you have applied for a new connection, please ensure that the technicians will have access to your building's on-premises wiring and that your name in the door bell,on the specific date.. Υour connection will be activated within 3 days after your phone line is installed.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>40</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE>Ναι</CPE>
+    <STB/>
+    </order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K2V</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K2V</AIOS_code>
+    <Appweb_text>
+    Η προβλεπόμενη ημερομηνία ενεργοποίησης της σύνδεσης σου εμφανίζεται στο πεδίο που βρίσκεται στο πάνω μέρος. Για την παράδοση του εξοπλισμού θα λάβεις σχετικό μήνυμα στο κινητό σου αναφορικά με την παράδοση του. Μπορείς να παρακολουθείς εδώ την εξέλιξη παράδοσης του εξοπλισμού σου. Αν έχεις κάνει αίτηση για νέα γραμμή τη συγκεκριμένη ημερομηνία εξασφάλισε πρόσβαση στο κτίριο σου για ενδεχόμενη επίσκεψη τεχνικού και διασφάλισε ότι αναγράφεται το όνομα σου στο κουδούνι. Η ενεργοποίηση της υπηρεσίας αναμένεται να ολοκληρωθεί εντός 3 ημερών από την παραπάνω ημερομηνία.
+    </Appweb_text>
+    <Appweb_text_en>
+    The estimated activation date of your connection appears above. You will be informed via sms on the delivery of the necessary equipment. You can track the status of the delivery here. If you have applied for a new connection, please ensure that the technicians will have access to your building's on-premises wiring and that your name in the door bell,on the specific date. Υour connection will be activated within 3 days after your phone line is installed.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>40</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE>Ναι</CPE>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3</AIOS_code>
+    <Appweb_text>
+    Ο βρόχος σου παραδόθηκε και η σύνδεση είναι σε πιλοτική λειτουργία καθώς θα χρειαστεί να ολοκληρωθούν οι τελικοί έλεγχοι ώστε να διαπιστωθεί η σωστή λειτουργία της. Σε περίπτωση που έχεις κάνει αίτηση νέας αριθμοδότησης θα σε καλέσουμε εντός 3 ημερών στο κινητό επικοινωνίας που μας έχεις δώσει για να ορίσουμε ραντεβού για την αποστολή τεχνικού για την ολοκλήρωση της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your phone line has been installed and we are running the final checks, in order to verify its proper operation, before the final activation. In case you are already making calls, please note that the charges will be according to your plan.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3V</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3V</AIOS_code>
+    <Appweb_text>
+    Ο βρόχος σου παραδόθηκε και η σύνδεση είναι σε πιλοτική λειτουργία καθώς θα χρειαστεί να ολοκληρωθούν οι τελικοί έλεγχοι ώστε να διαπιστωθεί η σωστή λειτουργία της. Σε περίπτωση που έχεις κάνει αίτηση νέας αριθμοδότησης θα σε καλέσουμε εντός 3 ημερών στο κινητό επικοινωνίας που μας έχεις δώσει για να ορίσουμε ραντεβού για την αποστολή τεχνικού για την ολοκλήρωση της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your phone line has been installed and we are running the final checks, in order to verify its proper operation, before the final activation. In case you are already making calls, please note that the charges will be according to your plan.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.10</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.10</AIOS_code>
+    <Appweb_text>
+    Η γραμμή σου παραδόθηκε και η σύνδεση είναι σε πιλοτική λειτουργία. Πραγματοποιούμε τους τελικούς ελέγχους ώστε να διαπιστωθεί η σωστή λειτουργία της. Οι έλεγχοι διαρκούν κατά μέσο όρο 1 εργάσιμη ημέρα
+    </Appweb_text>
+    <Appweb_text_en>
+    Your phone line has been installed and we are running the final checks, in order to verify its proper operation, before the final activation. In case you are already making calls, please note that the charges will be according to your plan.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.12</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.12</AIOS_code>
+    <Appweb_text>
+    Η γραμμή σου παραδόθηκε και η σύνδεση είναι σε πιλοτική λειτουργία. Πραγματοποιούμε τους τελικούς ελέγχους ώστε να διαπιστωθεί η σωστή λειτουργία της. Οι έλεγχοι διαρκούν κατά μέσο όρο 1 εργάσιμη ημέρα
+    </Appweb_text>
+    <Appweb_text_en>
+    Your phone line has been installed and we are running the final checks, in order to verify its proper operation, before the final activation. In case you are already making calls, please note that the charges will be according to your plan.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.13</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.13</AIOS_code>
+    <Appweb_text>
+    Η γραμμή σου παραδόθηκε και η σύνδεση είναι σε πιλοτική λειτουργία. Πραγματοποιούμε τους τελικούς ελέγχους ώστε να διαπιστωθεί η σωστή λειτουργία της. Οι έλεγχοι διαρκούν κατά μέσο όρο 1 εργάσιμη ημέρα
+    </Appweb_text>
+    <Appweb_text_en>
+    Your phone line has been installed and we are running the final checks, in order to verify its proper operation, before the final activation. In case you are already making calls, please note that the charges will be according to your plan.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.14</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.14</AIOS_code>
+    <Appweb_text>
+    Οι υπηρεσίες τηλεφωνίας και ίντερνετ έχουν ενεργοποιηθεί. Παρακαλώ σύνδεσε το router της Vodafone ώστε να ξεκινήσει η διαδικασία ενεργοποίησης του Vodafone TV. Οι έλεγχοι διαρκούν κατά μέσο όρο 4 εργάσιμες ημέρες
+    </Appweb_text>
+    <Appweb_text_en>
+    Your Telephony and Internet services have been activated. Please install the Vodafone router, to start the activation process of Vodafone TV. Checks last for an average of 4 working days
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.15</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.15</AIOS_code>
+    <Appweb_text>
+    Οι υπηρεσίες τηλεφωνίας και ίντερνετ έχουν ενεργοποιηθεί. Παρακαλώ σύνδεσε το router της Vodafone ώστε να ξεκινήσει η διαδικασία ενεργοποίησης του Vodafone TV. Οι έλεγχοι διαρκούν κατά μέσο όρο 4 εργάσιμες ημέρες.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your Telephony and Internet services have been activated. Please install the Vodafone router to start the activation process of Vodafone TV. Checks last for an average of 4 working days
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>15</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.11</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.11</AIOS_code>
+    <Appweb_text>
+    Η γραμμή παραδόθηκε και η σύνδεση σου είναι σε πιλοτική λειτουργία. Πραγματοποιούμε τους τελικούς ελέγχους ώστε να διαπιστωθεί η σωστή λειτουργία της. Οι έλεγχοι διαρκούν κατά μέσο όρο 1 εργάσιμη ημέρα.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your phone line has been installed and we are running the final checks, in order to verify its proper operation, before the final activation. In case you are already making calls, please note that the charges will be according to your plan.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.2</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.2</AIOS_code>
+    <Appweb_text>
+    Ο βρόχος σου παραδόθηκε και η σύνδεση είναι σε πιλοτική λειτουργία καθώς θα χρειαστεί να ολοκληρωθούν οι τελικοί έλεγχοι ώστε να διαπιστωθεί η σωστή λειτουργία της. Σε περίπτωση που έχεις κάνει αίτηση νέας αριθμοδότησης θα σε καλέσουμε εντός 3 ημερών στο κινητό επικοινωνίας που μας έχεις δώσει για να ορίσουμε ραντεβού για την αποστολή τεχνικού για την ολοκλήρωση της σύνδεσης σου.
+    </Appweb_text>
+    <Appweb_text_en>
+    Your phone line has been installed and we are running the final checks, in order to verify its proper operation, before the final activation. In case you are already making calls, please note that the charges will be according to your plan.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.3</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.3</AIOS_code>
+    <Appweb_text>
+    Η σύνδεση σου είναι σε πιλοτική λειτουργία. Κατά τη διάρκεια των ελέγχων για τη σωστή λειτουργίας της, διαπιστώθηκε τεχνικό θέμα. Το θέμα ήδη διαχειρίζεται από το τμήμα ενεργοποιήσεων. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δώσει να σε ενημερώσουμε.
+    </Appweb_text>
+    <Appweb_text_en>
+    During our final checks in order to verify your Telephony and Internet services proper operation, a technical issue has been identified. The issue is already being managed by our technical department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.4</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.4</AIOS_code>
+    <Appweb_text>
+    Η σύνδεση σου είναι σε πιλοτική λειτουργία. Κατά τη διάρκεια των ελέγχων για τη σωστή λειτουργίας της, διαπιστώθηκε τεχνικό θέμα. Το θέμα ήδη διαχειρίζεται από το τμήμα ενεργοποιήσεων. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δώσει να σε ενημερώσουμε.
+    </Appweb_text>
+    <Appweb_text_en>
+    During our final checks in order to verify your Telephony and Internet services proper operation, a technical issue has been identified . The issue is already being managed by our technical department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.4.6</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.4.6</AIOS_code>
+    <Appweb_text>
+    Η σύνδεση σου είναι σε πιλοτική λειτουργία. Κατά τη διάρκεια των ελέγχων για τη σωστή λειτουργίας της, διαπιστώθηκε τεχνικό θέμα το οποίο επηρεάζει την ολοκλήρωση της αίτησης. Το θέμα διαχειρίζεται από το τμήμα ενεργοποιήσεων. Το τεχνικό θέμα που εντοπίσαμε κατά τον τελικό έλεγχο παραμένει, το οποίο επηρεάζει την ολοκλήρωση της αίτησης. Το θέμα διαχειρίζεται από το τμήμα ενεργοποιήσεων.
+    </Appweb_text>
+    <Appweb_text_en>
+    During our final checks in order to verify your Telephony and Internet services proper operation, a technical issue has been identified, which affects the implementation of your application. The issue is already being managed by the appropriate department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#eb9700</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.6</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.6</AIOS_code>
+    <Appweb_text>
+    Η σύνδεση σου είναι σε πιλοτική λειτουργία. Κατά τη διάρκεια των ελέγχων για τη σωστή λειτουργίας της, διαπιστώθηκε τεχνικό θέμα. Το θέμα ήδη διαχειρίζεται από το τμήμα ενεργοποιήσεων. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δώσει να σε ενημερώσουμε.
+    </Appweb_text>
+    <Appweb_text_en>
+    During our final checks in order to verify your Telephony and Internet services proper operation, a technical issue has been identified . The issue is already being managed by our technical department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#eb9700</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.7</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.7</AIOS_code>
+    <Appweb_text>
+    Η σύνδεση σου είναι σε πιλοτική λειτουργία. Κατά τη διάρκεια των ελέγχων για τη σωστή λειτουργίας της, διαπιστώθηκε τεχνικό θέμα. Το θέμα ήδη διαχειρίζεται από το τμήμα ενεργοποιήσεων. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δώσει να σε ενημερώσουμε.
+    </Appweb_text>
+    <Appweb_text_en>
+    During our final checks in order to verify your Telephony and Internet services proper operation, a technical issue has been identified . The issue is already being managed by our technical department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.8</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.8</AIOS_code>
+    <Appweb_text>
+    Η σύνδεση σου είναι σε πιλοτική λειτουργία. Κατά τη διάρκεια των ελέγχων για τη σωστή λειτουργίας της, διαπιστώθηκε τεχνικό θέμα, το οποίο ήδη διαχειρίζεται από το αρμόδιο τμήμα.
+    </Appweb_text>
+    <Appweb_text_en>
+    During our final checks in order to verify your Telephony and Internet services proper operation, a technical issue has been identified . The issue is already being managed by our technical department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.9.1</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.9.1</AIOS_code>
+    <Appweb_text>
+    Εκκρεμεί επίσκεψη τεχνικού μας για την ολοκλήρωση της σύνδεσης σου. Αν δεν έχουμε ήδη ορίσει ραντεβού, θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δώσει για να ορίσουμε ραντεβού για την αποστολή τεχνικού.
+    </Appweb_text>
+    <Appweb_text_en>
+    We will contact you on your mobile to set an appointment with a technician to activate your connection. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>70</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.9.2</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.9.2</AIOS_code>
+    <Appweb_text>
+    Κατά την διαδικασία ενεργοποίησης σου διαπιστώθηκε από τον τεχνικό μας κάποιο τεχνικό θέμα. Το θέμα ήδη διαχειρίζεται από το τμήμα ενεργοποιήσεων. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δώσει να σε ενημερώσουμε.
+    </Appweb_text>
+    <Appweb_text_en>
+    During your phone line's installation process, a technical issue has been identified . The issue is already being managed by our technical department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>80</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.9.4</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.9.4</AIOS_code>
+    <Appweb_text>
+    Η επίσκεψη του τεχνικού της Vodafone δεν έχει πραγματοποιηθεί καθώς διαπιστώθηκε βλάβη στη γραμμή. Το θέμα διαχειρίζεται από το αρμόδιο τμήμα. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά.
+    </Appweb_text>
+    <Appweb_text_en>
+    During your phone line's installation process, a technical issue has been identified . The issue is already being managed by our technical department. We will contact you on your mobile to update you
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>70</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K3.9.5</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K3.9.5</AIOS_code>
+    <Appweb_text>
+    Η επίσκεψη του τεχνικού της Vodafone για μεικτονόμιση της γραμμής εκκρεμεί καθώς είτε δεν έχουμε καταφέρει να σας βρούμε ή δεν ήσασταν στο χώρο σας την ώρα που είχε οριστεί το ραντεβού. Παρακαλούμε καλέστε μας στο 13830 ώστε να ορίσουμε το ραντεβού.
+    </Appweb_text>
+    <Appweb_text_en>
+    Our technician's visit to install your phone line is still pending, as we have not been able to contact you or you were absent on the date and time of the previous appointment. Please call 13830 to set an appointment.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>70</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K4.1</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K4.1</AIOS_code>
+    <Appweb_text>
+    Κατά τη διαδικασία ενεργοποίησης της σύνδεσης σου, διαπιστώθηκε ένα θέμα το οποίο επηρεάζει την συνέχιση της διαδικασίας. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά.
+    </Appweb_text>
+    <Appweb_text_en>
+    During the activation process of your phone line, an issue has been identified, which affects the further processing of your application. We will contact you on your mobile to inform you further.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>40</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K4V</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K4V</AIOS_code>
+    <Appweb_text>
+    Κατά τη διαδικασία ενεργοποίησης της σύνδεσης σου, διαπιστώθηκε ένα θέμα το οποίο επηρεάζει την συνέχιση της διαδικασίας. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά.
+    </Appweb_text>
+    <Appweb_text_en>
+    During the activation process of your phone line, an issue has been identified, which affects the further processing of your application. We will contact you on your mobile to inform you further.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>40</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K4</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K4</AIOS_code>
+    <Appweb_text>
+    Κατά τη διαδικασία ενεργοποίησης της σύνδεσης σου, διαπιστώθηκε ένα θέμα το οποίο επηρεάζει την συνέχιση της διαδικασίας. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά.
+    </Appweb_text>
+    <Appweb_text_en>
+    During the activation process of your phone line, an issue has been identified, which affects the further processing of your application. We will contact you on your mobile to inform you further.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>40</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K4.2</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K4.2</AIOS_code>
+    <Appweb_text>
+    Κατά τη διαδικασία ενεργοποίησης της σύνδεσης σου, διαπιστώθηκε ένα θέμα το οποίο επηρεάζει την συνέχιση της διαδικασίας. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά.
+    </Appweb_text>
+    <Appweb_text_en>
+    During the activation process of your phone line, an issue has been identified, which affects the further processing of your application. We will contact you on your mobile to inform you further.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>40</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K4.3</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K4.3</AIOS_code>
+    <Appweb_text>
+    Κατά τη διαδικασία ενεργοποίησης της σύνδεσης σου, διαπιστώθηκε ένα θέμα το οποίο επηρεάζει την συνέχιση της διαδικασίας. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά.
+    </Appweb_text>
+    <Appweb_text_en>
+    During the activation process of your phone line, an issue has been identified, which affects the further processing of your application. We will contact you on your mobile to inform you further.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>40</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K4.3.1</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K4.3.1</AIOS_code>
+    <Appweb_text>
+    Κατά τη διαδικασία ενεργοποίησης της σύνδεσης σου, διαπιστώθηκε ένα θέμα το οποίο επηρεάζει την συνέχιση της διαδικασίας. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά.
+    </Appweb_text>
+    <Appweb_text_en>
+    During the activation process of your phone line, an issue has been identified, which affects the further processing of your application. We will contact you on your mobile to inform you further.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>40</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K14</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K14</AIOS_code>
+    <Appweb_text>Το αίτημα σου ολοκληρώθηκε!</Appweb_text>
+    <Appweb_text_en>Your request has been completed!</Appweb_text_en>
+    <Step>4</Step>
+    <Percentage>100</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K10.5</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K10.5</AIOS_code>
+    <Appweb_text/>
+    <Appweb_text_en/>
+    <Step>3</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K4.4</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K4.4</AIOS_code>
+    <Appweb_text>
+    Κατά τη διαδικασία ενεργοποίησης της σύνδεσης σου, διαπιστώθηκε ένα θέμα το οποίο επηρεάζει την συνέχιση της διαδικασίας. Θα σε καλέσουμε στο κινητό επικοινωνίας που μας έχεις δηλώσει ώστε να σε ενημερώσουμε σχετικά.
+    </Appweb_text>
+    <Appweb_text_en>
+    During the activation process of your phone line, an issue has been identified, which affects the further processing of your application. We will contact you on your mobile to inform you further.
+    </Appweb_text_en>
+    <Step>2</Step>
+    <Percentage>10</Percentage>
+    <Speed/>
+    <Colour>#e60000</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K5</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K5</AIOS_code>
+    <Appweb_text>
+    Οι υπηρεσίες τηλεφωνίας και internet ενεργοποιήθηκαν. Σε περίπτωση που έχεις κάνει αίτηση σε Vodafone home triple-play παρακαλούμε σύνδεσε το router της Vodafone για να ξεκινήσουν οι απαραίτητοι έλεγχοι για την ενεργοποίηση της υπηρεσίας τηλεόρασης. Θα λάβεις σχετικό μήνυμα στο κινητό σου αναφορικά με την παράδοση του εξοπλισμού της υπηρεσίας τηλεόρασης.
+    </Appweb_text>
+    <Appweb_text_en>
+    Telephony and internet services have been activated. If you have ordered the Vodafone home triple-play pack, please install the Vodafone router and keep it switched on, in order for us to run the required TV service checks. Within the next days, you will be notified by sms for the free delivery of the Vodafone TV's STB to your premises by a courier.
+    </Appweb_text_en>
+    <Step>3</Step>
+    <Percentage>90</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status>Submited</Order_status>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>K5</Internal_Title>
+    <Type>K_status</Type>
+    <AIOS_code>K5</AIOS_code>
+    <Appweb_text>
+    Οι υπηρεσίες τηλεφωνίας και internet ενεργοποιήθηκαν.
+    </Appweb_text>
+    <Appweb_text_en>
+    Telephony and internet services have been activated.
+    </Appweb_text_en>
+    <Step>4</Step>
+    <Percentage>100</Percentage>
+    <Speed/>
+    <Colour>#00b0ca</Colour>
+    <Order_status>Completed</Order_status>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 300 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 300 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed>300 Mbps</Speed>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.0</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.0</AIOS_code>
+    <Appweb_text>
+    Ξεκίνησε η διαδικασία των απαραίτητων ελέγχων διαθεσιμότητας της υπηρεσίας vodafone tv.
+    </Appweb_text>
+    <Appweb_text_en>
+    We are running the necessary checks for Vodafone TV activation.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 50 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 50 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>50 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play CU Xclusive</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-8JAXZU</AIOS_code>
+    <Appweb_text>
+    * Ενιαία αστική χρέωση σε εθνικά σταθερά * Internet έως 24 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * Standard rate to Greek landlines * Internet speed till 24 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>24 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home adsl plus</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-VELMD</AIOS_code>
+    <Appweb_text>
+    * Ενιαία αστική χρέωση σε εθνικά σταθερά, * internet έως 24Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * Standard rate to Greek landlines * Internet speed till 24 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>24 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-6JXHOH</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 300 λεπτά προς εθνικά κινητά * Internet έως 50 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 300 minutes of calls to Greek mobile phones * Internet speed till 50 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>50 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 100 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 100 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>100 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 200 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 200 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>200 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-6JXHOH</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 300 λεπτά προς εθνικά κινητά * Internet έως 50 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 300 minutes of calls to Greek mobile phones * Internet speed till 50 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>50 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 500 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 500 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>500 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play </Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 300 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 300 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>300 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play +300</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-6JXHOH</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 300 λεπτά προς εθνικά κινητά * Internet έως 24 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 300 minutes of calls to Greek mobile phones * Internet speed till 24 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>24 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home Telephony GR</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>6SIA-4HWLH</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play GR</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>6SIA-4HWLH</AIOS_code>
+    <Appweb_text>
+    * Aπεριόριστα εθνικά σταθερά * Internet έως 24 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * Internet speed till 24 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>24 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-6JXHOH</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 300 λεπτά προς εθνικά κινητά * Internet έως 24 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 300 minutes of calls to Greek mobile phones * Internet speed till 24 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>24 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play </Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 500 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek mobile phones and international landlines * Internet speed till 500 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>500 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 50 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek mobile phones and international landlines * Internet speed till 50 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>50 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 300 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek mobile phones and international landlines * Internet speed till 300 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>300 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 30 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek and international mobile phones * Internet speed till 30 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>30 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 24 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek mobile phones and international landlines * Internet speed till 24 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>24 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή κινητά * Internet έως 200 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek and international mobile phones * Internet speed till 200 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>200 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή κινητά * Internet έως 100 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek mobile phones * Internet speed till 100 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>100 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play </Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά * Internet έως 100 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek mobile phones * Internet speed till 100 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>100 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 500 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 500 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>500 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 500 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 500 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>500 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 50 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 50 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>50 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 50 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 50 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>50 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 300 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 300 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>300 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 30 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 30 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>30 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 30 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 30 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>30 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 30 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 30 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>30 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 200 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 200 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>200 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 200 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 200 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>200 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 100 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 100 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>100 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 100 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 100 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>100 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 100 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 100 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>100 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 100 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls Greek mobile phones and international landlines * Internet speed till 100 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>100 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-A6ALN3</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 360 λεπτά προς εθνικά κινητά και διεθνή σταθερά * Internet έως 100 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 360 minutes of calls to Greek mobile phones and international landlines * Internet speed till 100 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>100 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home triple play</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-6JXHOH</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 300 λεπτά προς εθνικά κινητά * Internet έως 24 Mbps * Vodafone TV
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 300 minutes of calls to Greek mobile phones * Internet speed till 24 Mbps * Vodafone TV
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>24 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>Vodafone Home double play +300</Internal_Title>
+    <Type>PricePlan</Type>
+    <AIOS_code>1-6JXHOH</AIOS_code>
+    <Appweb_text>
+    * Απεριόριστα εθνικά σταθερά * 300 λεπτά προς εθνικά κινητά * Internet έως 50 Mbps
+    </Appweb_text>
+    <Appweb_text_en>
+    * unlimited calls to Greek landlines * 300 minutes of calls to Greek mobile phones * Internet speed till 50 Mbps
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>50 Mbps<Speed/>
+    <Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.6</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.6</AIOS_code>
+    <Appweb_text>Το αίτημα ακύρωσης του Vodafone TV ολοκληρώθηκε.</Appweb_text>
+    <Appweb_text_en>
+    Your Vodafone TV cancellation request has been successfully processed.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#e60000<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.5</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.5</AIOS_code>
+    <Appweb_text>
+    Μπορείς να απολαύσεις την πιο ολοκληρωμένη λύση ψυχαγωγίας και να δεις πραγματικά το περιεχόμενο που θες, όπου θες και με όποιον τρόπο θες! (κινητό, tablet και TV)
+    </Appweb_text>
+    <Appweb_text_en>
+    Congratulations! You now have access to enjoy Vodafone TV on your TV set. Don’t forget, you can also enjoy the Vodafone TV service via the Vodafone TV app, on your smartphone or tablet, anywhere and anytime.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.4</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.4</AIOS_code>
+    <Appweb_text>
+    Μόλις λάβεις τον δέκτη, σύνδεσε τον με το router και την τηλεόρασή σου για να απολαμβάνεις την πιο ολοκληρωμένη λύση ψυχαγωγίας!!!
+    </Appweb_text>
+    <Appweb_text_en>
+    The STB has been shipped. As soon as you receive the STB, install it to enjoy the most complete entertainment pack solution!!!
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+    <order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.3</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.3</AIOS_code>
+    <Appweb_text>
+    Έχει ξεκινήσει η αποστολή του δέκτη, μόλις λάβεις τον δέκτη, σύνδεσε τον με το router και την τηλεόρασή σου για να απολαμβάνεις την πιο ολοκληρωμένη λύση ψυχαγωγίας !!! Μπορείς να ελέγξεις την πορεία αποστολής επιλέγοντας εδώ. Αν χρειάζεσαι βοήθεια για τη συνδεσμολογία επέλεξε εδώ.
+    </Appweb_text>
+    <Appweb_text_en>
+    The STB has been shipped. As soon as you receive the STB, install it to enjoy the most complete entertainment pack solution!!! Υou can check the shipping route by clicking here. Ιf you need help on the installation click here.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB>Ναι</STB>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.2.6</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.2.6</AIOS_code>
+    <Appweb_text>
+    Κατά τη διάρκεια των ελέγχων για τη σωστή λειτουργίας του Vodafone TV, διαπιστώθηκε τεχνικό θέμα. Το θέμα ήδη διαχειρίζεται από το τμήμα ενεργοποιήσεων.
+    </Appweb_text>
+    <Appweb_text_en>
+    A technical issue has been identified during the necessary checks. The issue is already being managed by our technical department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.2.5.2</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.2.5.2</AIOS_code>
+    <Appweb_text>
+    Για να λάβεις τον δέκτη και να απολαμβάνεις το Vodafone TV και στην τηλεόραση, θα πρέπει να συνδέσεις το Vodafone router που σου έχουμε αποστείλει και να το αφήσεις συνδεδεμένο και ανοιχτό για 48 ώρες για να ολοκληρώσουμε τους απαραίτητους ελέγχους.
+    </Appweb_text>
+    <Appweb_text_en>
+    In order to receive the STB and enjoy Vodafone TV at your TV set, you need to install the Vodafone router we have sent you and keep it switched on for 48 hours, for the final checks to be run.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.2.5.1</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.2.5.1</AIOS_code>
+    <Appweb_text>
+    Για να λάβεις τον δέκτη και να απολαμβάνεις το Vodafone TV και στην τηλεόραση, θα πρέπει να συνδέσεις το Vodafone router που σου έχουμε αποστείλει και να το αφήσεις συνδεδεμένο και ανοιχτό για 48 ώρες για να ολοκληρώσουμε τους απαραίτητους ελέγχους.
+    </Appweb_text>
+    <Appweb_text_en>
+    In order to receive the STB and enjoy Vodafone TV at your TV set, you need to install the Vodafone router we have sent you and keep it switched on for 48 hours, for the final checks to be run.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.2.3</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.2.3</AIOS_code>
+    <Appweb_text>
+    Κατά τη διάρκεια των ελέγχων για τη σωστή λειτουργία του Vodafone TV, διαπιστώθηκε τεχνικό θέμα. Το θέμα ήδη διαχειρίζεται από το τμήμα ενεργοποιήσεων. Θα σε καλέσουμε στο κινητο επικοινωνίας που μας εχεις δωσει να σε ενημερώσουμε.
+    </Appweb_text>
+    <Appweb_text_en>
+    A technical issue has been identified during the necessary checks. The issue is already being managed by our technical department. We will contact you on your mobile to update you.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.2.2.1</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.2.2.1</AIOS_code>
+    <Appweb_text>
+    Έχουν παρέλθει οι 30 ημέρες και δεν έχεις συνδέσει τον Vodafone router για να ολοκληρώσουμε τους απαραίτητους ελέγχους. Παρακαλώ σύνδεσε και διατήρησε ανοιχτό το router καθώς θα απενεργοποιηθεί το Vodafone TV.
+    </Appweb_text>
+    <Appweb_text_en>
+    30 days have elapsed and you have not installed the Vodafone Router in order to complete the necessary checks. Please install the router , because if we don’t complete the necessary checks the Vodafone TV will be terminated.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.2.2</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.2.2</AIOS_code>
+    <Appweb_text>
+    Προκειμένου να ολοκληρώσουμε τους απαραίτητους ελεγχούς για να απολαμβάνεις το Vodafone TV και στην τηλεόραση σου θα χρειαστεί το Vodafone router να παραμείνει συνδεδεμένο και ανοιχτό για 48 ώρες. Αν δεν έχεις συνδέσει τον router παρακαλούμε σύνδεσε και διατήρησε ανοιχτό τον εξοπλισμό. Προσοχή, αν δεν συνδέσεις το router εντός 30 ημερών θα απενεργοποιηθει το Vodafone TV.
+    </Appweb_text>
+    <Appweb_text_en>
+    In order to enjoy Vodafone TV at your TV set , please intall the Vodafone router and keep it switced on for 48 hours, in order for us to complete the final checks. If you have not yet installed the router, please do so and keep it switched on . If the router is not installed within 30 days, the necessary checks will not be completed, and Vodafone TV will be terminated.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.2</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.2</AIOS_code>
+    <Appweb_text>
+    Πραγματοποιούμε τους απαραίτητους ελεγχούς για την υπηρεσία Vodafone TV. Εάν υπάρξει οποιοδήποτε πρόβλημα, θα σε ενημερώσουμε.
+    </Appweb_text>
+    <Appweb_text_en>
+    We are running the necessary checks for the Vodafone TV's TV access activation.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+<order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.1</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.1</AIOS_code>
+    <Appweb_text>
+    Αναμένουμε να ολοκληρωθεί η ενεργοποίηση των υπηρεσιών τηλεφωνίας και ιντερνετ για να ολοκληρώσουμε τους τελικούς ελέγχους για το vodafone tv.
+    </Appweb_text>
+    <Appweb_text_en>
+    Pending Telephony and Internet activation , to run the Vodafone TV's necessary activation checks.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour/>#007c92<Colour/>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+</order>
+    <order xmlns:mcare="http://www.w3.org/1999/xml">
+    <Internal_Title>IPTV.0.1</Internal_Title>
+    <Type>TV_Status</Type>
+    <AIOS_code>IPTV.0.1</AIOS_code>
+    <Appweb_text>
+    Ξεκίνησε η διαδικασία των απαραίτητων ελέγχων διαθεσιμότητας της υπηρεσίας vodafone tv.
+    </Appweb_text>
+    <Appweb_text_en>
+    We are running the necessary checks for Vodafone TV activation.
+    </Appweb_text_en>
+    <Step/>
+    <Percentage/>
+    <Speed/>
+    <Colour>#eb9700</Colour>
+    <Order_status/>
+    <CPE/>
+    <STB/>
+    </order>
+</cms>

@@ -1,0 +1,82 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: makemyplan
+    env: dxl-stagingref-gr
+    country: gr
+  name: makemyplan
+  namespace: dxl-stagingref-gr
+spec:
+  replicas: 1
+  strategy:
+    rollingUpdate:
+      maxUnavailable: 33%
+      maxSurge: 100%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: makemyplan
+        env: dxl-stagingref-gr
+    spec:
+      containers:
+      - name: makemyplan-application
+        image: DOCKER_GREECE_URL:TAG_PREFIX-DOCKER_PROJECT_NAME-SEMVER_VERSION 
+        imagePullPolicy: Always
+        env:
+        - name: JAVA_OPTS
+          value: -Xmx512m -server        
+        - name: ENCRYPTION_KEY
+          valueFrom:
+            secretKeyRef:
+              name: encryption-key
+              key: password
+        - name: env.kafka.server.url
+          valueFrom:
+            configMapKeyRef:
+              name: application-config-makemyplan
+              key:  env.kafka.server.url
+        - name: env.kafka.topic
+          valueFrom:
+            configMapKeyRef:
+              name: application-config-makemyplan
+              key:  env.kafka.topic
+        - name: env.kafka.enabled
+          valueFrom:
+            configMapKeyRef:
+              name: application-config-makemyplan
+              key:  env.kafka.enabled
+        ports:
+        - containerPort: 8080
+          name: http
+        - containerPort: 9080
+          name: management
+        readinessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 9080
+          initialDelaySeconds: 200
+          periodSeconds: 5
+          timeoutSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 9080
+          initialDelaySeconds: 200
+          periodSeconds: 5
+          timeoutSeconds: 10
+        resources:
+          requests:
+            cpu: 200m
+            memory: 256Mi
+          limits:
+            cpu: 400m
+            memory: 512Mi
+        volumeMounts:
+        - mountPath: /config
+          name: application-config
+      volumes:
+      - name: application-config
+        configMap:
+          name: application-config-makemyplan

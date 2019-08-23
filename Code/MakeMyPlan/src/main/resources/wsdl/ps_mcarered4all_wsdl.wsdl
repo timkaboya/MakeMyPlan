@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><WL5G3N0:definitions name="Red4AllInterfaces" targetNamespace="http://accenture.com/eai/Red4All" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://accenture.com/eai/Red4All" xmlns:WL5G3N2="http://schemas.xmlsoap.org/wsdl/soap/">
+  <WL5G3N0:types>
+    <xsd:schema targetNamespace="http://accenture.com/eai/Red4All" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:red="http://accenture.com/eai/Red4All" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Request">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element form="qualified" name="ParentMSISDN" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+      <xsd:element name="Response">
+	  <xsd:complexType>
+		<xsd:sequence>
+			<xsd:element form="qualified" name="responseCode" type="xsd:string"/>
+			<xsd:element form="qualified" name="responseMessage" type="xsd:string"/>
+			<xsd:element form="qualified" maxOccurs="1" minOccurs="0" name="ListOfHouseHoldMembers" type="red:ListOfHouseHoldMembers"/>
+		</xsd:sequence>
+	  </xsd:complexType>
+	</xsd:element>
+      <xsd:complexType name="ThresholdAddOnDetails">
+		<xsd:sequence>
+			<xsd:element form="qualified" maxOccurs="1" minOccurs="1" name="AddOnName" type="xsd:string"/>
+			<xsd:element form="qualified" maxOccurs="1" minOccurs="1" name="AddOnAttributeName" type="xsd:string"/>
+			<xsd:element form="qualified" maxOccurs="1" minOccurs="1" name="AddOnAttributeValue" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+      <xsd:complexType name="HouseholdMember">
+		<xsd:sequence>
+			<xsd:element form="qualified" maxOccurs="1" minOccurs="1" name="MemberMSISDN" type="xsd:string"/>
+			<xsd:element form="qualified" maxOccurs="1" minOccurs="1" name="TariffPlan" type="xsd:string"/>
+			<xsd:element form="qualified" maxOccurs="1" minOccurs="0" name="ThresholdAddOnDetails" type="red:ThresholdAddOnDetails"/>
+		</xsd:sequence>
+	</xsd:complexType>
+      <xsd:complexType name="ListOfHouseHoldMembers">
+		<xsd:sequence>
+			<xsd:element form="qualified" maxOccurs="unbounded" minOccurs="1" name="HouseholdMember" type="red:HouseholdMember"/>
+		</xsd:sequence>
+	</xsd:complexType>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="queryHouseholdMembersInputMessage">
+    <WL5G3N0:part element="WL5G3N1:Request" name="queryHouseholdMembersInputParameters"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="queryHouseholdMembersOutputMessage">
+    <WL5G3N0:part element="WL5G3N1:Response" name="queryHouseholdMembersOutputParameters"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="Red4AllInterfacesPortType">
+    <WL5G3N0:operation name="queryHouseholdMembers">
+      <WL5G3N0:input message="WL5G3N1:queryHouseholdMembersInputMessage" name="queryHouseholdMembersInput"/>
+      <WL5G3N0:output message="WL5G3N1:queryHouseholdMembersOutputMessage" name="queryHouseholdMembersOutput"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="Red4AllInterfacesBinding" type="WL5G3N1:Red4AllInterfacesPortType">
+    <WL5G3N2:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="queryHouseholdMembers">
+      <WL5G3N2:operation/>
+      <WL5G3N0:input name="queryHouseholdMembersInput">
+        <WL5G3N2:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output name="queryHouseholdMembersOutput">
+        <WL5G3N2:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="Red4AllInterfacesService">
+    <WL5G3N0:port binding="WL5G3N1:Red4AllInterfacesBinding" name="Red4AllInterfacesPort">
+      <WL5G3N2:address location="http://gr007acs.gr.sedc.internal.vodafone.com:8080/SelfCareInquiries/Proxies/PS_mCareRed4All"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>MakeMyPlan</artifactId>
+	<packaging>jar</packaging>
+
+	<parent>
+		<artifactId>parent-MakeMyPlan</artifactId>
+		<groupId>com.vis</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../parent-MakeMyPlan</relativePath>
+	</parent>
+
+	<properties>
+		<!-- Stand-alone RESTFul application for testing only -->
+		<start-class>vis.greece.makemyplan.server.Server</start-class>
+		<jacoco.version>0.8.2</jacoco.version>
+		<core-common.version>0.0.1-SNAPSHOT</core-common.version>
+		<greece-common.version>0.0.1-SNAPSHOT</greece-common.version>
+		<karate.version>0.8.0</karate.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.vis</groupId>
+			<artifactId>common-integration</artifactId>
+			<version>${core-common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vis.greece</groupId>
+			<artifactId>greece-common-security</artifactId>
+			<version>${greece-common.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.vis.greece</groupId>
+			<artifactId>greece-common-logging</artifactId>
+			<version>${greece-common.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.vis.greece</groupId>
+			<artifactId>greece-common-mongo</artifactId>
+			<version>${greece-common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vis</groupId>
+			<artifactId>common-monitoring</artifactId>
+			<version>${core-common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>org.jacoco.agent</artifactId>
+			<classifier>runtime</classifier>
+			<version>${jacoco.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.intuit.karate</groupId>
+			<artifactId>karate-apache</artifactId>
+			<version>${karate.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.intuit.karate</groupId>
+			<artifactId>karate-junit4</artifactId>
+			<version>${karate.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>3.8.0</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<outputDirectory>${project.output.directory}</outputDirectory>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

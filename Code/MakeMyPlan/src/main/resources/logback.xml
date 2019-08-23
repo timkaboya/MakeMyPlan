@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- configuration file for LogBack (slf4J implementation) See here for more 
+	details: http://gordondickens.com/wordpress/2013/03/27/sawing-through-the-java-loggers/ -->
+<configuration scan="true" scanPeriod="30 seconds">
+
+	<property scope="context" name="kafkaUrl"
+		value="${env.kafka.server.url}" />
+	<property scope="context" name="kafkaTopic"
+		value="${env.kafka.topic}" />
+		
+	<contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+		<resetJUL>true</resetJUL>
+	</contextListener>
+
+	<!-- To enable JMX Management -->
+	<jmxConfigurator />
+	
+	<appender name="ASYNC"
+		class="ch.qos.logback.classic.AsyncAppender">
+		<neverBlock>true</neverBlock>
+		<includeCallerData>true</includeCallerData>
+		<appender name="KAFKA" class="vis.greece.logging.appenders.KafkaAppender">
+			<topic>${kafkaTopic}</topic>
+			<bootstrapServers>${kafkaUrl}</bootstrapServers>
+			<failOnStartup>false</failOnStartup>
+		</appender>
+	</appender>
+	
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[%thread] %d{dd-MM-yyyy HH:mm:ss.SSS} %X{UID} %X{USR} %X{DOCID} %X{customerType} %X{profileType}: %-5level %logger{0} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+<!-- Spring Webservice XML -->
+	<logger name="org.springframework.ws.client.MessageTracing">
+		<level value="TRACE" />
+	</logger>
+	<logger name="org.springframework.ws.server.MessageTracing">
+		<level value="TRACE" />
+	</logger>
+
+	<!-- Specify logging levels -->
+	<logger name="org.springframework" level="warn" />
+	<logger name="org.hibernate" level="warn" />
+	<root level="${LOG_LEVEL:-info}">
+		<appender-ref ref="console" />
+<!-- 		<appender-ref ref="ASYNC" /> -->
+	</root>
+</configuration>

@@ -1,0 +1,38 @@
+apiVersion: v1
+data:
+  application.properties: |-
+    countryCode=GR
+    countryCodeMobile=30
+    environmentName=prod
+    management.server.port=9080
+    management.health.ldap.enabled=false
+    management.endpoint.metrics.enabled=true
+    management.endpoints.web.exposure.include=*
+    management.endpoint.prometheus.enabled=true
+    management.metrics.export.prometheus.enabled=true 
+    kafka.enabled=true
+    kafka.max.payload=3355000
+    kafka.topic=vf.myvdf.gr.aws.prod.ms.ulff
+    kafka.server.url=10.178.187.56:9092,10.178.187.59:9092,10.178.187.52:9092
+    mongodb.host=mongodb+srv://DXL-GR-Prod-cachedb-user:shehD5Fe6dzhou5R@dxl-gr-prod-hqm4r.mongodb.net/dxl-gr-cachedb
+    mongodb.database=dxl-gr-cachedb
+    mongodb.document.ttl.inSeconds=1200
+    soap.connect.timeout.inMillis=5000
+    soap.read.timeout.inMillis=50000
+    rest.connect.timeout.inMillis=5000
+    rest.read.timeout.inMillis=50000
+    greece.makemyplan.activatebundle.sopaaction=http://osb.vodafone.com/gr/ComboBundles/activateBundle
+    greece.makemyplan.register.sopaaction=http://osb.vodafone.com/gr/ComboBundles/register
+    greece.makemyplan.unregister.sopaaction=http://osb.vodafone.com/gr/ComboBundles/unregister
+    greece.makemyplan.url=http://internal-vfdc-milan-prod-vpn-vpc-lb-171914443.eu-central-1.elb.amazonaws.com:8080/PS_ComboBundles
+    greece.sales-order.url=http://internal-vfdc-milan-prod-vpn-vpc-lb-171914443.eu-central-1.elb.amazonaws.com:8585/PTOSB/PS_SalesOrder
+  env.kafka.enabled: "true"
+  env.kafka.server.url: 10.178.187.56:9092,10.178.187.59:9092,10.178.187.52:9092
+  env.kafka.topic: vf.myvdf.gr.aws.prod.ms.custom
+kind: ConfigMap
+metadata:
+  labels:
+    app: makemyplan
+    environment: dxl-prod-gr
+  name: application-config-makemyplan
+  namespace: dxl-prod-gr

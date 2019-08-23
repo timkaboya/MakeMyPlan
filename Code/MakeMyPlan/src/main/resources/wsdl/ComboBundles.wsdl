@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.vodafone.com/gr/ComboBundles" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ComboBundles" targetNamespace="http://osb.vodafone.com/gr/ComboBundles">
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://osb.vodafone.com/gr/ComboBundles">
+			<xsd:element name="activateBundle">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="msisdn" type="xsd:string" minOccurs="1"/>
+						<xsd:element name="bundleCode" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+						<xsd:element name="channel" type="xsd:string" minOccurs="1"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="activateBundleResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="return" type="tns:BackResult" minOccurs="1"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="register">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="msisdn" type="xsd:string" minOccurs="1"/>
+						<xsd:element name="service" type="xsd:string" minOccurs="1"/>
+						<xsd:element name="channel" type="xsd:string" minOccurs="1"/>
+						<xsd:element name="type" type="xsd:string" minOccurs="1"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="registerResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="return" type="tns:BackResult" minOccurs="1"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="unregister">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="msisdn" type="xsd:string" minOccurs="1"/>
+						<xsd:element name="service" type="xsd:string" minOccurs="1"/>
+						<xsd:element name="channel" type="xsd:string" minOccurs="1"/>
+						<xsd:element name="type" type="xsd:string" minOccurs="1"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="unregisterResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="return" type="tns:BackResult" minOccurs="1"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:complexType name="BackResult">
+				<xsd:sequence>
+					<xsd:element name="errorCode " type="xsd:string" minOccurs="1"/>
+					<xsd:element name="errorDescription  " type="xsd:string" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="activateBundleRequestMessage">
+		<wsdl:part name="parameters" element="tns:activateBundle"/>
+	</wsdl:message>
+	<wsdl:message name="activateBundleResponseMessage">
+		<wsdl:part name="parameters" element="tns:activateBundleResponse"/>
+	</wsdl:message>
+	<wsdl:message name="registerRequestMessage">
+		<wsdl:part name="parameters" element="tns:register"/>
+	</wsdl:message>
+	<wsdl:message name="registerResponseMessage">
+		<wsdl:part name="parameters" element="tns:registerResponse"/>
+	</wsdl:message>
+	<wsdl:message name="unregisterRequestMessage">
+		<wsdl:part name="parameters" element="tns:unregister"/>
+	</wsdl:message>
+	<wsdl:message name="unregisterResponseMessage">
+		<wsdl:part name="parameters" element="tns:unregisterResponse"/>
+	</wsdl:message>
+	<wsdl:portType name="ComboBundlesPortType">
+		<wsdl:operation name="activateBundle">
+			<wsdl:input message="tns:activateBundleRequestMessage"/>
+			<wsdl:output message="tns:activateBundleResponseMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="register">
+			<wsdl:input message="tns:registerRequestMessage"/>
+			<wsdl:output message="tns:registerResponseMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="unregister">
+			<wsdl:input message="tns:unregisterRequestMessage"/>
+			<wsdl:output message="tns:unregisterResponseMessage"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="ComboBundlesSOAPBinding" type="tns:ComboBundlesPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="activateBundle">
+			<soap:operation soapAction="http://osb.vodafone.com/gr/ComboBundles/activateBundle"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="register">
+			<soap:operation soapAction="http://osb.vodafone.com/gr/ComboBundles/register"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="unregister">
+			<soap:operation soapAction="http://osb.vodafone.com/gr/ComboBundles/unregister"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="ComboBundles">
+		<wsdl:port name="ComboBundlesSOAPPort" binding="tns:ComboBundlesSOAPBinding">
+			<soap:address location="http://OSBhostname.org:8585/PS_ComboBundles"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

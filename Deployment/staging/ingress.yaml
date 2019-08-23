@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  labels:
+    app: makemyplan
+    env: dxl-staging-gr
+  name: makemyplan
+  namespace: dxl-staging-gr
+spec:
+  tls:
+  - hosts:
+    - makemyplan-gr-staging.myvdf.aws.cps.vodafone.com
+    secretName: pkiv01-myvdf-wildcard-cert
+  rules:
+  - host: makemyplan-gr-staging.myvdf.aws.cps.vodafone.com
+    http:
+      paths:
+      - backend:
+          serviceName: makemyplan
+          servicePort: 8080
+        path: /
